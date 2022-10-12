@@ -105,6 +105,26 @@ a {
     flex-grow: 1;
 }
 
+.upgrade {
+    background-color: var(--color-dark-primary);
+    padding: 1rem .5rem;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.button {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: .7rem 3rem;
+    background-color: transparent;
+    color: white;
+    float: right;
+}
+
 
 /* BOTTOM-CONTAINER */
 .bottom-container {
@@ -112,4 +132,5 @@ a {
     flex-shrink:0;
     min-height: 50px;
 }
+
 

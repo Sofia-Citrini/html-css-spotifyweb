@@ -4,7 +4,8 @@
         padding: 1rem;
     }
 
-    .sidebar-list a {
+    .sidebar-list a,
+    .bottom-sidebar a {
         justify-content: start;
     }
 
@@ -17,15 +18,15 @@
         width: 150px;
     }
 
-    .sidebar-list .list-text{
+    .list-text{
         display: block;
     }
 
-    .sidebar-list .list-icon {
+    .list-icon {
         padding-right: .7rem;
     }
 
-    .middle-sidebar .playlist {
+    .sidebar .middle-sidebar .playlist {
         display: block;
     }
 
@@ -40,6 +41,11 @@
     .playlist-icon {
         font-size: 40px;
         padding-right: .7rem;
+    }
+
+    .line{
+        width: 100%;
+        border: 1px solid var(--color-tertiary);
     }
 }
 

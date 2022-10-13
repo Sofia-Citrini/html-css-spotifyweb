@@ -32,6 +32,11 @@ h5 {
     padding-left: .7rem;
 }
 
+h6 {
+    color: white;
+    font-size: 1rem;
+}
+
 ul {
     list-style: none;
 }
@@ -213,7 +218,82 @@ a {
 .bottom-container {
     background-color: var(--color-secondary);
     flex-shrink:0;
-    min-height: 50px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.song-row {
+    display: flex;
+    align-items: center;
+}
+
+.card-img-small {
+    width: 6vw; 
+}
+
+.card-text-small {
+    margin-left: .5rem;
+    margin-right: 1rem;
+}
+
+.bottom-left-icon i {
+    color: var(--color-tertiary);
+    display: inline-block;
+    font-size: 12px;
+    padding: 0 .2rem;
+}
+
+.bottom-right-icon i {
+    color: white;
+    font-size: 12px;
+    display: inline-block;
+    padding: 0 .2rem;
+}
+
+.line-bg {
+    margin: 0 .2rem;
+    width: 10vw;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #5A5A5A;
+}
+
+.line-bg-large {
+    flex-grow: 1;
+    width: 20vw;
+}
+
+.line-progress {
+    background-color: white;
+    height: 5px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.bar-row {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bar-row > * {
+    flex-grow: 1;
+    padding-bottom: .5rem;
+}
+
+.music-icon i{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 .5rem;
+}
+
+.minute {
+    color: white;
+    font-size: 12px;
+    flex-shrink: 0;
 }
 
 

@@ -18,7 +18,18 @@ body {
     flex-direction: column;
 }
 
+h2 {
+    color: white;
+    padding: 2rem 0 1rem;
+}
+
 h4 {
+    color: white;
+    padding: .7rem 0;
+    text-align: center;
+}
+
+h5 {
     color: white;
     padding-left: .7rem;
 }
@@ -125,6 +136,37 @@ a {
     float: right;
 }
 
+.menu {
+    color: var(--color-tertiary);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: .8rem;
+    line-height: 3rem;
+}
+
+.menu span {
+    display: inline-block;
+    padding: 0 .5rem;
+}
+
+/* col */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-xs-1-2 {
+    padding: .5rem;
+    flex-basis: 50%;
+}
+
+.subtitle {
+    color: var(--color-tertiary);
+    text-align: center;
+    font-weight: bold;
+    font-size: .8rem;
+}
 
 /* BOTTOM-CONTAINER */
 .bottom-container {

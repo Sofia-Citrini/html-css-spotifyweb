@@ -118,7 +118,7 @@ a {
 }
 
 .sidebar a:hover, 
-.menu span:hover,
+.menu a:hover,
 .bottom-left-icon i:hover {
     color: white;
     cursor: pointer;
@@ -174,7 +174,7 @@ a {
     margin-top: 3rem;
 }
 
-.menu span {
+.menu a {
     display: inline-block;
     padding: 0 .5rem;
 }
@@ -184,6 +184,10 @@ a {
     display: flex;
     flex-wrap: wrap;
     padding: 1rem 0;
+}
+
+.row-margin {
+    margin: 0 -.5rem;
 }
 
 .col-xs-1-2 {
@@ -228,6 +232,11 @@ a {
 
 .round-img {
     border-radius: 50%;
+}
+
+.round-img {
+    overflow: hidden;
+    object-fit: cover;
 }
 
 /* BOTTOM-CONTAINER */

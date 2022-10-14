@@ -26,6 +26,13 @@
         padding-right: .7rem;
     }
 
+    .upgrade {
+        position: fixed;
+        left: 250px;
+        right: 0;
+        top: 0;
+    }
+
     .sidebar .middle-sidebar .playlist {
         display: block;
     }

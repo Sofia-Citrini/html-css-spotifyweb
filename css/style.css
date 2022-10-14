@@ -135,6 +135,10 @@ a {
 .upgrade {
     background-color: var(--color-dark-primary);
     padding: 1rem 1rem;
+    position: fixed;
+    left: 70px;
+    right: 0;
+    top: 0;
 }
 
 .clearfix::after {
@@ -167,6 +171,7 @@ a {
     font-weight: bold;
     font-size: .8rem;
     line-height: 3rem;
+    margin-top: 3rem;
 }
 
 .menu span {
@@ -303,6 +308,11 @@ a {
 .bar-row > * {
     flex-grow: 1;
     padding-bottom: .5rem;
+}
+
+.music-icon button {
+    background-color: transparent;
+    border: none;
 }
 
 .music-icon i{

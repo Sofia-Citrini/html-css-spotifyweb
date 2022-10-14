@@ -1,0 +1,70 @@
+@media screen and (min-width: 568px) {
+    .sidebar {
+        width: 250px;
+        padding: 1rem;
+    }
+
+    .sidebar-list a,
+    .bottom-sidebar a {
+        justify-content: start;
+    }
+
+    .logo-small {
+        display: none;
+    }
+
+    .logo-large {
+        display: block;
+        width: 150px;
+    }
+
+    .list-text{
+        display: block;
+    }
+
+    .list-icon {
+        padding-right: .7rem;
+    }
+
+    .upgrade {
+        position: fixed;
+        left: 250px;
+        right: 0;
+        top: 0;
+    }
+
+    .sidebar .middle-sidebar .playlist {
+        display: block;
+    }
+
+    .playlist a {
+        display: inline-block;
+        color: var(--color-tertiary);
+        padding: .7rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .playlist-icon {
+        font-size: 40px;
+        padding-right: .7rem;
+    }
+
+    .line{
+        width: 100%;
+        border: 1px solid var(--color-tertiary);
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .col-md-1-4 {
+        flex-basis: calc(100% / 4);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .col-lg-1-6 {
+        flex-basis: calc(100% / 6);
+    }
+}

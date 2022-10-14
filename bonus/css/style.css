@@ -24,7 +24,7 @@ h2 {
 
 h4 {
     color: white;
-    padding: .5rem 0;
+    padding: .7rem 0;
 }
 
 h5 {
@@ -89,6 +89,7 @@ a {
     padding: .7rem;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .list-text {
@@ -165,18 +166,34 @@ a {
 }
 
 .menu {
-    color: var(--color-tertiary);
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
     font-size: .8rem;
     line-height: 3rem;
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 
 .menu a {
+    color: var(--color-tertiary);
     display: inline-block;
     padding: 0 .5rem;
+    position: relative;
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #C3F56A;;
+    transition: width .4s;
+}
+
+.link:hover::after {
+    width: 100%;
 }
 
 /* col */
@@ -188,9 +205,12 @@ a {
 
 .row-margin {
     margin: 0 -.5rem;
+    flex-wrap: nowrap;
+    overflow-x: auto;
 }
 
 .col-xs-1-2 {
+    flex-shrink: 0;
     padding: .5rem;
     flex-basis: 50%;
 }
@@ -337,6 +357,7 @@ i.play {
 
 i.play:hover {
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 .minute {
